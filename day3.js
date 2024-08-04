@@ -40,7 +40,7 @@ else if (score >=70 && score <=89){
 else if (score >=50 && score <=69){
     grade = "C"
 }
-else{
+else if (score >= 30 && score <= 49){
     grade = "D"
 }
 console.log(grade);
