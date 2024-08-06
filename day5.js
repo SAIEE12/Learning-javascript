@@ -98,14 +98,42 @@
 
 
 
-let itm = [250,300,900];
-let i = 0;
-for (let el of itm){
-    console.log(`the original price of the item = ${el}`)
-    let offer = el/10;
-    itm[i] += offer
-    //console.log(`${offer}`);
-    console.log(`the final price of the item = ${itm[i]}`);
+// let itm = [250,300,900];
+// let i = 0;
+// for (let el of itm){
+//     console.log(`the original price of the item = ${el}`)
+//     let offer = el/10;
+//     itm[i] += offer
+//     //console.log(`${offer}`);
+//     console.log(`the final price of the item = ${itm[i]}`);
 
-    i++
-}
+//     i++
+// }
+
+
+// using for loop 
+
+// let items = [100,200,300,400,500,600];
+// for (i=0; i<items.length; i++){
+//     let offer = items[i]/10;
+//     items[i] -= offer;
+
+// }
+// console.log(items);
+
+//array methods
+
+// let marvel = ["thor", "ironman", "spiderman", "HULK"];
+// let tollywood = ["allu","mahesh","prabhas"];
+// let heroes = marvel.concat(tollywood);
+// console.log(heroes.toString());
+
+//array methods related ques
+let company = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+
+//console.log(company.shift());
+//console.log(company);
+//console.log(company.splice(1,1,"ola"));
+// console.log(company);
+console.log(company.push("amazon"));
+console.log(company);
