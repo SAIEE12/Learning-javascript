@@ -41,3 +41,10 @@ while(userNum != gameNum) {
 
 }
 console.log("congratulation you have entered the correct number");
+
+//practice question 3 taking ip from user and print the name by adding "@" at starting and size at the end
+
+let uname = prompt("Enter the name without any spaces");
+
+let fullname = "@" + uname + uname.length;
+console.log(fullname);
