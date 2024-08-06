@@ -129,11 +129,11 @@
 // console.log(heroes.toString());
 
 //array methods related ques
-let company = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
+// let company = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
 
-//console.log(company.shift());
-//console.log(company);
-//console.log(company.splice(1,1,"ola"));
+// //console.log(company.shift());
+// //console.log(company);
+// //console.log(company.splice(1,1,"ola"));
+// // console.log(company);
+// console.log(company.push("amazon"));
 // console.log(company);
-console.log(company.push("amazon"));
-console.log(company);
